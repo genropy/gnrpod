@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<GenRoBag>
+	<wsgi debug="False::B" port="8080" reload="False::B"/>
+
+	<gui css_theme="modern"/>
+
+	<jslib dojo_version="11" gnr_version="11"/>
+
+	<resources>
+		<common/>
+		<js_libs/>
+	</resources>
+    
+    <volumes>
+        <efs path='/home/pod' />
+    </volumes>
+
+	<gnrdaemon hmac_key="xstqdmvthlnu" host="localhost" port="40404"/>
+</GenRoBag>

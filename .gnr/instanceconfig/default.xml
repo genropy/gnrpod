@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<GenRoBag>
+	<packages/>
+
+	<authentication>
+		<xml_auth defaultTags="user,xml">
+		</xml_auth>
+	</authentication>
+</GenRoBag>

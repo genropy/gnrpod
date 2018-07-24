@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<GenRoBag>
+	<environment>
+		<gnrhome value="/home/genropy"/>
+	</environment>
+
+	<projects>
+		<genropy path="/home/genropy/projects"/>
+		<custom path="/home/pod/sources"/>
+		<genropy_projects path="/home/genropy_projects"/>
+	</projects>
+
+	<packages>
+		<genropy path="/home/genropy/packages"/>
+		<custom path="/home/pod/sources/localproject/packages"/>
+	</packages>
+
+	<static>
+		<js>
+			<dojo_11 cdn="" path="/home/genropy/dojo_libs/dojo_11"/>
+				<gnr_11 path="/home/genropy/gnrjs/gnr_d11"/>
+		</js>
+	</static>
+
+	<resources>
+		<genropy path="/home/genropy/resources"/>
+	</resources>
+
+	<webtools>
+		<genropy path="/home/genropy/webtools"/>
+	</webtools>
+
+	<gnrdaemon hmac_key="xstqdmvthlnu" host="localhost" port="40404"/>
+</GenRoBag>
