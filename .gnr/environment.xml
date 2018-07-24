@@ -6,13 +6,13 @@
 
 	<projects>
 		<genropy path="/home/genropy/projects"/>
-		<custom path="/home/pod/sources"/>
+		<custom path="/home/pod/projects"/>
 		<genropy_projects path="/home/genropy_projects"/>
 	</projects>
 
 	<packages>
 		<genropy path="/home/genropy/packages"/>
-		<custom path="/home/pod/sources/localproject/packages"/>
+		<custom path="/home/pod/projects/__main__/packages"/>
 	</packages>
 
 	<static>
