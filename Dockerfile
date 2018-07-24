@@ -3,7 +3,7 @@
 # Based on Ubuntu
 ############################################################
 
-FROM genropy/genropy:latest
+FROM genropy/genropy:develop
 MAINTAINER Francesco Porcari - francesco@genropy.org
 
 ADD .gnr /.gnr
