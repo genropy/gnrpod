@@ -12,7 +12,7 @@
 
 	<packages>
 		<genropy path="/home/genropy/packages"/>
-		<custom path="/home/pod/projects/__main__/packages"/>
+		<custom path="/home/pod/projects/main/packages"/>
 	</packages>
 
 	<static>

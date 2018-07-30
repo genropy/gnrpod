@@ -19,8 +19,8 @@
 #
 log_level='error'
 import os
-chdir='/home/pod/projects/__main__/instances/%s/'%os.environ.get('GNR_CURRENT_SITE')
-reload_extra_files=['/home/pod/projects/__main__/instances/%s/gunicorn.py'%os.environ.get('GNR_CURRENT_SITE')]
+chdir='/home/pod/projects/main/instances/%s/'%os.environ.get('GNR_CURRENT_SITE')
+reload_extra_files=['/home/pod/projects/main/instances/%s/gunicorn.py'%os.environ.get('GNR_CURRENT_SITE')]
 graceful_timeout=30
 timeout=30
 bind = '0.0.0.0:8888'
